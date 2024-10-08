@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border:none;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+html {
+    cursor: url(./img/icons8-cursor-85.png), auto;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+}

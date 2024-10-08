@@ -1,0 +1,173 @@
+footer {
+    width: 100%;
+    padding-top: 6rem;
+    padding-bottom: 2.8rem;
+    background-color: $background-hero;
+    .container {
+        .top {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 3rem;
+            .logo-redes-social {
+                .logo-footer {
+                    margin-bottom: 4.6rem;
+                }
+                p {
+                    font-weight: 700;
+                    color: $color-text-01;
+                    margin-bottom: 1.7rem;
+                }
+                .redes-sociais {
+                    display: flex;
+                    align-items: center;
+                    gap: 3.2rem;
+                    margin-bottom: 8.3rem
+                }
+            }
+            ul {
+                li {
+                    margin-bottom: 1.2rem;
+                    h3 {
+                        font-weight: 700;
+                        color: $color-text-01;
+                        font-size: 16px;
+                    }
+                    a {
+                        color: $color-text-01;
+                        font-size: 16px;
+                        transition: all 0.3s ease-in;
+                        &:hover {
+                            color: $color-link;
+                        }
+                    }
+                    .solicite-orcamento {
+                        color: $color-green-extra;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 2.7rem;
+            border-top: 1px solid rgba(129, 199, 164, 0.25);
+            .copyright {
+                width: 100%;
+                max-width: 38rem;
+            }
+            .icone {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: -9rem;
+                width: 100%;
+                max-width: 54px;
+                height: 54px;
+                border-radius: 100%;
+                background: $background-box-contato;
+            }
+            .desenvolvedor {
+                width: 100%;
+                max-width: 38rem;
+                display: flex;
+                justify-content: end;
+                p {
+                    margin-right: 13px;
+                }
+                img {
+                    animation: flip 15s ease-in infinite;
+                }
+            }
+        }
+    }
+    @include responsive(910px) {
+        .container {
+            .top {
+                .logo-redes-social {
+                    .logo-footer {
+                        max-width: 75%;
+                        margin-bottom: 2.6rem;
+                    }
+                }
+                ul {
+                    li {
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .bottom {
+                .copyright {
+                    font-size: 14px;
+                }
+                .desenvolvedor {
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }   
+    }
+    @include responsive(675px) {
+        .container {
+
+        }
+    }
+    @include responsive(430px) {
+        .container {
+            .top {
+                padding-bottom: 5rem;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                .logo-redes-social {
+                    display: flex;
+                    flex-direction: column;
+        	        align-items: center;
+                    .logo-footer {
+                        max-width: 90%;
+                        margin-bottom: 2.6rem;
+                    }
+                    .redes-sociais {
+                        margin-bottom: 2.3rem;
+                    }
+                }
+                ul {
+                    li {  
+                        margin-bottom: 2.4rem;
+                        a {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            .bottom {
+                flex-direction: column;
+                .copyright {
+                    max-width: 100%;
+                    text-align: center;
+                }
+                .desenvolvedor {
+                    max-width: 100%;
+                    justify-content: center;
+                    margin-top: 5rem;                
+                }
+            }
+        }
+    }
+    @include responsive(365px) {
+        .container {
+            .bottom {
+                .icone {
+                    margin-top: -10rem;
+                }
+                .desenvolvedor {
+                    margin-top: 6.5rem;
+                }
+            }
+        }
+    }
+}

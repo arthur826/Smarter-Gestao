@@ -1,0 +1,27 @@
+.btn-primary {
+    background: linear-gradient(271deg, #1FC54E 5.52%, #14B3AC 95.62%);
+    width: 250px;
+    height: 50px;
+    border-radius: 122px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.5s ease-in;
+    &:hover {
+        background: linear-gradient(271deg, #14B3AC 5.52%, #1FC54E 95.62%);
+    }
+}
+
+.btn-contato {
+    background: linear-gradient(271deg, #1FC54E 5.52%, #14B3AC 95.62%);
+    width: 220px;
+    height: 50px;
+    border-radius: 122px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.5s ease-in;
+    &:hover {
+        background: linear-gradient(271deg, #14B3AC 5.52%, #1FC54E 95.62%);
+    }
+}

@@ -1,0 +1,24 @@
+/*cor do botao*/
+$gradient-green-btn: linear-gradient(271deg, #1FC54E 5.52%, #14B3AC 95.62%);
+
+/*cor do span*/
+
+$span-titles: var(--gradient-blue-green, linear-gradient(276deg, #17AA61 16.08%, #14B3AC 84.48%));
+
+/*cores adicionais*/
+
+$background-hero: #17aa611a;
+$background-degrade: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #E6FFF2 23.88%);
+$background-box-contato: var(--gradient-blue-green, linear-gradient(276deg, #17AA61 16.08%, #14B3AC 84.48%));
+$background-degrade-02: var(--gradient-blue-green, linear-gradient(276deg, #17AA61 16.08%, #14B3AC 84.48%));
+
+$color-green-extra: #17AA61;        
+
+
+/*cores de  texto */
+
+$color-link: #17AA61;
+$color-link-head: #365847;
+$color-text-01: #3F3F3F;
+$color-text-02: #4B5563;
+$color-text-03: #7E818A;
